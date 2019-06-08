@@ -45,3 +45,7 @@
       {
           color:red;
       }
+      
+      .card-body{
+        padding: 0;
+      }
