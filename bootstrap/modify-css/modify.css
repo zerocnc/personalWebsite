@@ -42,3 +42,8 @@ footer {
 .card-body{
 	padding: 0;
 }
+
+hr
+{
+	margin: 30px 50px;
+}
