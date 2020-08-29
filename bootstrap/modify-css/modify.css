@@ -38,12 +38,22 @@ footer {
 {
 	color:red;
 }
-			
-.card-body{
-	padding: 0;
-}
 
 hr
 {
 	margin: 30px 50px;
+}
+
+h2, h3{
+	margin: 0px 0px 20px 0px;
+}
+
+.card-img-top{
+
+	height: 15vh;
+	
+}
+
+.card-svg-bot{
+	width: 20%;
 }
