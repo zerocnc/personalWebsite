@@ -51,6 +51,7 @@ h2, h3{
 .card-img-top{
 	height: 15vh;
 	object-fit: fit;
+	margin-top: 20px;
 }
 
 .card-svg-bot{
@@ -65,4 +66,13 @@ h2, h3{
 
 .card-body p{
 	padding: 10px;
+}
+
+.myauto{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.card-footer{
+	background-color: #FFF1EB;
 }
