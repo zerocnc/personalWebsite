@@ -15,54 +15,93 @@
 
 </head>
 <body>
-<div class="container">
-	<div class="jumbotron text-left">
-            <h1><span class="badge badge-light">I'm Richard Neal's Portfolio</span></h1>
-            <p><span class="badge badge-light">Welcome to my Portfolio</span></p>
-	</div>
-	<div class="container">
-		<nav class="navbar navbar-dark bg-dark">
-			<a class="navbar-brand" href="../index.html">Home</a>
-			<a class="navbar-brand" href="../../education/education.html">Education</a>
-			<a class="navbar-brand" href="#">Work</a>
-			<a class="navbar-brand" href="../../projects/projects.html">Projects</a>
-			<a class="navbar-brand" href="#">CV</a>
-			<a class="navbar-brand" href="#">Notes</a>
-		</nav>
-	</div>
-	<div class="container">
-        <br />
-        <h2>Work Experience</h2>
-        <hr />
-        <h4><b>Freelance Web Developer</b>: August 2007 - Fall 2010</h4>
-        <h5>Designed simple websites for small companies</h5>
-        <ul>
-            <li>Meet with clients and discuss requirements for a website based on business needs.</li>
-            <li>Help develop marketing strategy with web tools that include Bing and Google.</li>
-            <li>Development tools include Visual Studio Express, Dreamweaver, Adobe Photoshop 7.0</li>
-            <li>Worked with HTML/CSS, JavaScript, MySQL & PHP.</li>
-            <li>Worked with WordPress, Linux and Windows Server environments.</li>
-            <li>Composite pictures and structured web sites with accordance to Google SEO standards.</li>
-        </ul>
-        <h5>Sites</h5>
-        <ul>
-            <li>(defunct) - http://www.lovethegreenearth.com</li>
-            <li>(defunct) - http://www.graffitiwars.com</li>
-            <li>(defunct) - http://www.areacodeshoper.com</li>
-            <li><a href="http://www.titanfenceandshade.com">Titan Fence</a></li>
-            <li>(defunct) - Livermore Native American Indian Center</li>
-        </ul>
-        <hr />
-        <h4><b>Retail Experience</b>: GameStop(05-07), Work World Inc. (16-17)</h4>
-        <ul>
-            <li>Positions held range form Sales Associate to Assistant Store Manager.</li>
-            <li>Managed office adminstration tasks which include filed daily sales reports and holding conference calls.</li>
-            <li>Helped customers find merchandise based on their work requirements and OSHA.</li>
-            <li>Provided knowledge on products and setup for equipment.</li>
-            <li>Handle cash management and bank deposits.</li>
-            <li>Train employees and provide feed back to upper management on customer satisfaction and improvements.</li>
-        </ul>
-	</div>
-</div>
+
+    <!-- Main Container-->
+    <div class="container mh-100 bg-light shadow p-2 mb-5 bg-white rounded">
+        <div class="jumbotron text-left">
+            <div class="container">
+                <div>
+                    <span class="badge badge-light badge-fix"><h1>Richard Neal's Portfolio</h1></span>
+                </div>
+                <div>
+                    <span><p class="badge badge-light">Welcome to my portfolio.</p></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav bar section -->
+	    <div class="container mh-100">
+            <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerButton" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerButton">
+				
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html">Home </a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Work<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../education/education.html">Education</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+					</ul>
+				
+				</div>
+		  	</nav>
+        </div>
+
+        <!-- Work experience section -->
+	    <div class="container my-4 text-center">
+            <h1>Work Experience</h1>
+            
+            <div class="container ">
+                <div class="container my-1">
+                <h4><b>Web Developer</b>: August 2007 - Fall 2010</h4>
+                <h5>Designed simple websites for small companies</h5>
+
+
+                    <ul class="list-group list-group-flush d-inline-flex p-1">
+                        <li class="list-group-item">Meet with clients and discuss requirements for a website based on business needs.</li>
+                        <li class="list-group-item">Help develop marketing strategy with web tools that include Bing and Google.</li>
+                        <li class="list-group-item">Development tools include Visual Studio Express, Dreamweaver, Adobe Photoshop 7.0</li>
+                        <li class="list-group-item">Worked with and combined HTML/CSS, JavaScript, MySQL & PHP.</li>
+                        <li class="list-group-item">Worked within WordPress, Linux and Windows Server environments.</li>
+                        <li class="list-group-item">Composite pictures and structured web sites with accordance to Google SEO standards.</li>
+                    </ul>
+                    
+                </div>
+
+                <h4 class="py-2">Site <span class="badge badge-primary">Listing</span></h4>
+
+                <ul class="list-group list-group-flush d-inline-flex p-1">
+                    <li class="list-group-item"><a href="http://www.titanfenceandshade.com">Titan Fence</a></li>
+                    <li class="list-group-item">(defunct) - http://www.areacodeshopper.com</li>
+                    <li class="list-group-item">(defunct) - http://www.graffitiwars.com</li>
+                    <li class="list-group-item">(defunct) - http://www.lovethegreenearth.com</li>
+                    <li class="list-group-item">(defunct) - Livermore Native American Indian Center</li>
+                </ul>
+                
+            </div>
+            <hr />
+            <div class="container my-1">
+                <h4><b>Retail Experience</b>: <span class="text-danger">GameStop</span>(05-07), <span class="text-danger">Work</span> <span class="text-success">World</span> Inc. (16-17)</h4>
+                <ul class="list-group list-group-flush d-inline-flex p-1">
+                    <li class="list-group-item">Positions held range form Sales Associate to Assistant Store Manager.</li>
+                    <li class="list-group-item">Managed office adminstration tasks which include filed daily sales reports and holding conference calls.</li>
+                    <li class="list-group-item">Helped customers find merchandise based on their work requirements and OSHA.</li>
+                    <li class="list-group-item">Provided knowledge on products and setup for equipment.</li>
+                    <li class="list-group-item">Handle cash management and bank deposits.</li>
+                    <li class="list-group-item">Train employees and provide feed back to upper management on customer satisfaction and improvements.</li>
+                </ul>
+
+            </div>
+	    </div>
+    </div>
 </body>
 </html>
