@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
     <title>Richard Neal's Portfolio</title>
+	<!-- Remember script order for bootstrap is the following!
+		1. CSS (boostrap.min.css)
+		2. At the <body> tag
+			a. popper.js
+			b. jquery.js
+	-->
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./bootstrap/modify-css/modify.css">
-	
-	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 	
 	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
@@ -33,12 +37,18 @@
 			</div>
 			<!-- Nav Bar -->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="navbar-nav">
-						<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-link" href="../work/work.html">Work</a>
-						<a class="nav-item nav-link" href="../education/education.html">Education</a>
-						<a class="nav-item nav-link disabled" href="#">Disabled</a>
+				<div class="container">
+					<a class="navbar-brand" href="#">RN</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-item nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-item nav-link" href="../work/work.html">Work</a>
+							<a class="nav-item nav-link" href="../education/education.html">Education</a>
+							<a class="nav-item nav-link disabled" href="#">Disabled</a>
+						</div>
 					</div>
 				</div>
 		  	</nav>
@@ -143,5 +153,7 @@
 		</div>
 	</main>
 	</div>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="./bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
