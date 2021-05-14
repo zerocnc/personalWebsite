@@ -12,15 +12,15 @@
 			a. popper.js
 			b. jquery.js
 	-->
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="./bootstrap/modify-css/modify.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/modify-css/modify.css">
+	<script src="./jquery/jquery-3.6.0.js"></script>
 	
 	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	
 	<!-- Linkedin -->
-	<link rel="stylesheet" href="./css/styles.css">
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 	<!-- End of Linkedin -->
 
@@ -31,18 +31,18 @@
 
 	<!-- Main container -->
 	<div class="container bg-light shadow bg-white">
-		<div class="container">
+		<div class="container py-2">
 			<div class="jumbotron jumbotron-fluid">
 					<h1 class="display-1 py-5"><span class="badge badge-light badge-fix">Richard Neal's Portfolio</span></h1>
 			</div>
 			<!-- Nav Bar -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+				<div class="container-fluid">
 					<a class="navbar-brand" href="#">RN</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="collapse navbar-collapse" id="navbarNav">
 						<div class="navbar-nav">
 							<a class="nav-item nav-link active" aria-current="page" href="#">Home</a>
 							<a class="nav-item nav-link" href="../work/work.html">Work</a>
@@ -57,7 +57,7 @@
 	<main class="container">
 		<div class="text-center">
 			<div class="container p-3">
-				<h2>Welcome to my Unix Website</h2>
+				<h1>Welcome to my Unix Website</h1>
 				<p class="lead">This is a tempory place where I like to put a few things online, 
 				so feel free to look around and explore. This is just a place where I like to log my past experience 
 				in education and experiment with design.</p>
@@ -66,7 +66,7 @@
 			<hr class="my-4" />
 	
 			<div class="container p-4">
-				<h2>Job Experience</h2>
+				<h1>Job Experience</h1>
 				<div class="row">
 					<div class="col-md-12 pt-2">
 						<p class="lead">
@@ -92,7 +92,7 @@
 
 			<hr />
 			<div class="container">
-			<h2>Past Projects</h2>
+			<h1>Past Projects</h1>
 
 			<div class="container py-4">
 
