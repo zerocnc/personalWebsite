@@ -42,10 +42,8 @@ footer {
 }
 			
 /* On small screens, set height to 'auto' for sidenav and grid */
-
-			
 .jumbotron {
-	margin-top:10px;
+
 	background-image: url("../../images/bgheader01.jpg");
 	background-size: cover;      
 }
@@ -58,11 +56,6 @@ footer {
 {
 	color:red;
 }
-
-/* hr
-{
-	margin: 10px 10px;
-} */
 
 h2, h3{
 	margin: 0px 0px 20px 0px;

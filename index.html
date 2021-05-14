@@ -7,20 +7,18 @@
 	
     <title>Richard Neal's Portfolio</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./bootstrap/modify-css/modify.css">
 	
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" async></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" async></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" async></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 	
 	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	
 	<!-- Linkedin -->
-	
-    <link rel="stylesheet" href="./bootstrap/modify-css/modify.css">
+	<link rel="stylesheet" href="./css/styles.css">
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<!-- End of Linkedin -->
 
 </head>
 
@@ -28,41 +26,31 @@
 <body>
 
 	<!-- Main container -->
-	<div class="container mh-100 bg-light shadow p-2 mb-5 bg-white rounded">
-		<div class="jumbotron text-left ">
-			<div class="container">
-				<div>
-					<span class="badge badge-light badge-fix"><h1>Richard Neal's Portfolio</h1></span>
-				</div>
-				<div>
-					<span><p class="badge badge-light">Welcome to my portfolio.</p></span>
-				</div>
+	<div class="container bg-light shadow bg-white">
+		<div class="container">
+			<div class="jumbotron jumbotron-fluid">
+					<h1 class="display-1 py-5"><span class="badge badge-light badge-fix">Richard Neal's Portfolio</span></h1>
 			</div>
-		</div>
-
-		<div class="container mh-100">
-			<nav class="navbar  navbar-expand-lg navbar-light bg-light">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerButton" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarTogglerButton">
-				
-					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="../work/work.html">Work</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="../education/education.html">Education</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
-					</li>
-					</ul>
-				
-				</div>
+			<!-- Nav Bar -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container">
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../work/work.html">Work</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../education/education.html">Education</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link disabled" href="#">Disabled</a>
+							</li>
+						</ul>
+					</div>
+				</div> <!-- End of Container -->
 		  	</nav>
 		</div>
 		
@@ -78,15 +66,15 @@
 			<hr class="my-4" />
 	
 			<div class="container p-4">
-				<h3>Job Experiance</h3>
+				<h1>Job Experience</h1>
 				<div class="row">
-					<div class="col-md-12 pt-2 rounded">
-						<p class="text-center">
+					<div class="col-md-12 pt-2">
+						<p class="lead">
 						Working in retail allowed me to develop accountability and responsibility within both sales and marketing.
 						After working in retail, I've designed websites for small businesses. That achieved being both informative to customers and 
 						reaching out to new client base by applying Search Engine Optimization techniques.
 						</p>
-						<p class="text-center">
+						<p class="text-center py-2">
 						<i class="devicon-c-plain colored"></i>,  <i class="devicon-cplusplus-plain colored"></i>,
 										 <i class="devicon-csharp-plain colored"></i>,  <i class="devicon-css3-plain colored"></i>,
 										 <i class="devicon-debian-plain colored"></i>,  <i class="devicon-dot-net-plain colored"></i>,
@@ -104,18 +92,17 @@
 
 			<hr />
 			<div class="container">
-			<h3>Past Projects</h3>
+			<h1>Past Projects</h1>
 
 			<div class="container py-4">
 
 				<div class="card-group">
 					<div class="card">
-						<img class="card-img-top" src="./images/warszawianka_Restaurant.svg" alt="Card image cap">
+						<img src="./images/warszawianka_Restaurant.svg" class="card-img-top" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Restaurant Database</h5>
 							<p class="card-text">Created a restaurant database in a school group project that would capture what happens in both the front end of the business and the back end as well.</p>
 							<p class="card-text"><small class="text-muted">Source Code - Demo</small></p>
-	
 							<div class="card-footer">
 								<svg class="card-svg-bot" viewBox="0 0 128 128">
 									<path fill="#6181B6" d="M64 33.039c-33.74 0-61.094 13.862-61.094 30.961s27.354 30.961 61.094 30.961 61.094-13.862 61.094-30.961-27.354-30.961-61.094-30.961zm-15.897 36.993c-1.458 1.364-3.077 1.927-4.86 2.507-1.783.581-4.052.461-6.811.461h-6.253l-1.733 10h-7.301l6.515-34h14.04c4.224 0 7.305 1.215 9.242 3.432 1.937 2.217 2.519 5.364 1.747 9.337-.319 1.637-.856 3.159-1.614 4.515-.759 1.357-1.75 2.624-2.972 3.748zm21.311 2.968l2.881-14.42c.328-1.688.208-2.942-.361-3.555-.57-.614-1.782-1.025-3.635-1.025h-5.79l-3.731 19h-7.244l6.515-33h7.244l-1.732 9h6.453c4.061 0 6.861.815 8.402 2.231s2.003 3.356 1.387 6.528l-3.031 15.241h-7.358zm40.259-11.178c-.318 1.637-.856 3.133-1.613 4.488-.758 1.357-1.748 2.598-2.971 3.722-1.458 1.364-3.078 1.927-4.86 2.507-1.782.581-4.053.461-6.812.461h-6.253l-1.732 10h-7.301l6.514-34h14.041c4.224 0 7.305 1.215 9.241 3.432 1.935 2.217 2.518 5.418 1.746 9.39zM95.919 54h-5.001l-2.727 14h4.442c2.942 0 5.136-.29 6.576-1.4 1.442-1.108 2.413-2.828 2.918-5.421.484-2.491.264-4.434-.66-5.458-.925-1.024-2.774-1.721-5.548-1.721zM38.934 54h-5.002l-2.727 14h4.441c2.943 0 5.136-.29 6.577-1.4 1.441-1.108 2.413-2.828 2.917-5.421.484-2.491.264-4.434-.66-5.458s-2.772-1.721-5.546-1.721z"></path>
@@ -123,14 +110,12 @@
 							</div>
 				  		</div>
 					</div>
-	
 					<div class="card">
 						<img class="card-img-top" src="./images/black_orange_men_cloud.svg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Chat 1.0</h5>
-							<p class="card-text">Using C#, I've created a chat program to communicate with different computers over a small network for a hack-a-thon competition. Used sockets.</p>
-							<p class="card-text"><small class="text-muted"><a href="https://devpost.com/software/chat-1-0">Contest Page</a> - Source</small></p>
-	
+							<p class="card-text">Using C#, I've created a chat program to communicate with different computers over a small network for a hack-a-thon competition using sockets.</p>
+							<p class="card-text"><small class="text-muted"><a href="https://devpost.com/software/chat-1-0">Contest Page</a> - Source: <a href="https://github.com/zerocnc/ChatClient">Client</a>/<a href="https://github.com/zerocnc/ChatServer">Server</a></small></p>
 							<div class="card-footer">
 								<svg class="card-svg-bot myauto"  viewBox="0 0 128 128">
 									<path fill="#9B4F96" d="M115.4 30.7l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z"></path><path fill="#68217A" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.7c0-.9-.1-1.9-.6-2.8l-106.6 62z"></path><path fill="#fff" d="M85.3 76.1c-4.2 7.4-12.2 12.4-21.3 12.4-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6zM97 66.2l.9-4.3h-4.2v-4.7h5.1l1.2-6.2h4.9l-1.2 6.1h3.8l1.2-6.1h4.8l-1.2 6.1h2.4v4.7h-3.3l-.9 4.3h4.2v4.7h-5.1l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6h-2.4v-4.7h3.3zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z"></path>
@@ -138,14 +123,12 @@
 							</div>
 				  		</div>
 					</div>
-	
 					<div class="card">
 						<img class="card-img-top" src="./images/mortgage.svg" alt="Real estate">
 						<div class="card-body">
 							<h5 class="card-title">Real-Estate tracker</h5>
-							<p class="card-text">The purpose of this program was to design an application using data structures and algorithm analysis. The group decided to track realtor agents selling houses.</p>
+							<p class="card-text">The purpose of this project was to design an application using data structures and algorithm analysis to track realtor agents selling houses.</p>
 							<p class="card-text"><small class="text-muted"><a href="https://github.com/zerocnc/MiniProject">Source</a></small></p>
-	
 							<div class="card-footer">
 								<svg class="card-svg-bot"  viewBox="0 0 128 128">
 									<path fill="#D26383" d="M115.4 30.7l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z"></path><path fill="#9C033A" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.7c0-.9-.1-1.9-.6-2.8l-106.6 62z"></path><path fill="#fff" d="M85.3 76.1c-4.2 7.4-12.2 12.4-21.3 12.4-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6z"></path><path d="M82.1 61.8h5.2v-5.3h4.4v5.3h5.3v4.4h-5.3v5.2h-4.4v-5.2h-5.2v-4.4zM100.6 61.8h5.2v-5.3h4.4v5.3h5.3v4.4h-5.3v5.2h-4.4v-5.2h-5.2v-4.4z"></path>
@@ -161,9 +144,11 @@
 			<!-- Start of Contacts -->
 			<hr />
 			<div class="container p-4">
-				<h3>- Contact -</h3>
-				<p>Please use the following Linkedin to contact me.</p>
-				<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="richard-neal-1b653bb3"><a class="LI-simple-link" href='https://www.linkedin.com/in/richard-neal-1b653bb3?trk=profile-badge'>Richard Neal</a></div>
+				<h1>- Contact -</h1>
+				<p class="lead">Please use the following Linkedin to contact me.</p>
+				<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+				<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="richard-neal-1b653bb3" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/richard-neal-1b653bb3?trk=profile-badge">Richard Neal</a></div>
+              
 			</div>
 		</div>
 	</main>
