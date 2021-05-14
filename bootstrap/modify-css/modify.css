@@ -16,8 +16,10 @@ h1{
 	font-family: 'Caveat', cursive;
 }
 
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 450px}
+.outline{
+	text-shadow: #000 2px 3px 4px;
+    -webkit-font-smoothing: antialiased;
+}
 			
 /* Set black background color, white text and some padding */
 footer {
@@ -27,10 +29,23 @@ footer {
 }
 			
 /* On small screens, set height to 'auto' for sidenav and grid */
-.jumbotron {
+header{
 
 	background-image: url("../../images/bgheader01.jpg");
-	background-size: cover;      
+	background-size: cover;
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+	background-color: #e9ecef;
+	border-radius: .3rem;
+
+}
+
+.container-blur{
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
 }
 
 .card-img-top{
