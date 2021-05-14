@@ -1,71 +1,65 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US" dir="ltr">
 <head>
-    <meta charset="UTF-8">
+
+	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Welcome to my Work Section</title>
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../bootstrap/modify-css/modify.css">
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" async></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" async></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" async></script>
+	
+    <title>Richard Neal's Portfolio</title>
+	<!-- Remember script order for bootstrap is the following!
+		1. CSS (boostrap.min.css)
+		2. Before the end of body tag
+			a. popper.js
+			b. jquery.js
+	-->
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/modify-css/modify.css">
+	<script src="../jquery/jquery-3.6.0.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+	<!-- Linkedin -->
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<!-- End of Linkedin -->
 
 </head>
+<!--Body Starts-->
 <body>
-
-    <!-- Main Container-->
-    <div class="container mh-100 bg-light shadow p-2 mb-5 bg-white rounded">
-        <div class="jumbotron text-left">
-            <div class="container">
-                <div>
-                    <span class="badge badge-light badge-fix"><h1>Richard Neal's Portfolio</h1></span>
-                </div>
-                <div>
-                    <span><p class="badge badge-light">Welcome to my portfolio.</p></span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Nav bar section -->
-	    <div class="container mh-100">
-            <nav class="navbar  navbar-expand-lg navbar-light bg-light">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerButton" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarTogglerButton">
-				
-					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item">
-						<a class="nav-link" href="../index.html">Home </a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Work<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="../education/education.html">Education</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
-					</li>
-					</ul>
-				
+	<!-- Main container -->
+	<div class="container bg-light shadow bg-white">
+		<div class="container py-2">
+			<div class="jumbotron jumbotron-fluid">
+					<h1 class="display-1 py-5"><span class="badge badge-light badge-fix">Richard Neal's Portfolio</span></h1>
+			</div>
+			<!-- Nav Bar -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">RN</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<div class="navbar-nav">
+                            <a class="nav-item nav-link" href="../index.html">Home</a>
+							<a class="nav-item nav-link active" aria-current="page" href="#">Work</a>
+							<a class="nav-item nav-link" href="../education/education.html">Education</a>
+							<a class="nav-item nav-link disabled" href="#">Disabled</a>
+						</div>
+					</div>
 				</div>
 		  	</nav>
-        </div>
-
-        <!-- Work experience section -->
+		</div>
+		
+	<main class="container">
 	    <div class="container my-4 text-center">
             <h1>Work Experience</h1>
             
-            <div class="container ">
+            <div class="container-fluid">
                 <div class="container my-1">
                 <h4><b>Web Developer</b>: August 2007 - Fall 2010</h4>
                 <h5>Designed simple websites for small companies</h5>
-
-
                     <ul class="list-group list-group-flush d-inline-flex p-1">
                         <li class="list-group-item">Meet with clients and discuss requirements for a website based on business needs.</li>
                         <li class="list-group-item">Help develop marketing strategy with web tools that include Bing and Google.</li>
@@ -74,23 +68,20 @@
                         <li class="list-group-item">Worked within WordPress, Linux and Windows Server environments.</li>
                         <li class="list-group-item">Composite pictures and structured web sites with accordance to Google SEO standards.</li>
                     </ul>
-                    
                 </div>
-
-                <h4 class="py-2">Site <span class="badge badge-primary">Listing</span></h4>
-
-                <ul class="list-group list-group-flush d-inline-flex p-1">
+                <hr class="text-muted" />
+                <h1>Previous Site Works</h1>
+                <ul class="list-group list-group-flush d-inline-flex">
                     <li class="list-group-item"><a href="http://www.titanfenceandshade.com">Titan Fence</a></li>
                     <li class="list-group-item">(<a href="https://web.archive.org/web/20141216185625/http://www.areacodeshopper.com/">defunct</a>) - http://www.areacodeshopper.com</li>
                     <li class="list-group-item">(defunct) - http://www.graffitiwars.com</li>
                     <li class="list-group-item">(<a href="https://web.archive.org/web/20100323200247/http://www.lovethegreenearth.com/">defunct</a>) - http://www.lovethegreenearth.com</li>
                     <li class="list-group-item">(defunct) - Livermore Native American Indian Center</li>
                 </ul>
-                
             </div>
-            <hr />
-            <div class="container my-1">
-                <h4><b>Retail Experience</b>: <span class="text-danger">GameStop</span>(05-07), <span class="text-danger">Work</span> <span class="text-success">World</span> Inc. (16-17)</h4>
+            <hr class="text-info" />
+                <h1>Retail Experience</h1>
+                <h3><span class="text-danger"><b>GameStop</b></span>, <span class="text-danger">Work</span> <span class="text-success">World</span> Inc.</h3>
                 <ul class="list-group list-group-flush d-inline-flex p-1">
                     <li class="list-group-item">Positions held range form Sales Associate to Assistant Store Manager.</li>
                     <li class="list-group-item">Managed office adminstration tasks which include filed daily sales reports and holding conference calls.</li>
@@ -99,9 +90,10 @@
                     <li class="list-group-item">Handle cash management and bank deposits.</li>
                     <li class="list-group-item">Train employees and provide feed back to upper management on customer satisfaction and improvements.</li>
                 </ul>
-
-            </div>
 	    </div>
-    </div>
+	</main>
+	</div>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="../bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
