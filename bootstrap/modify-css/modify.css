@@ -1,15 +1,7 @@
 /* Media Quries*/
 @media (max-width: 576px) 
 {  
-	.h1
-	{
-		word-wrap: break-word;
-		-webkit-hyphens: auto;
-		-moz-hyphens: auto;
-		-ms-hyphens: auto;
-		-o-hyphens: auto;
-		hyphens: auto;
-	}
+
 }
 
 h1{
@@ -27,18 +19,14 @@ footer {
 	color: white;
 	padding: 15px;
 }
-			
-/* On small screens, set height to 'auto' for sidenav and grid */
-header{
 
+.bg-image{
 	background-image: url("../../images/bgheader01.jpg");
 	background-size: cover;
-	padding: 2rem 1rem;
-	margin-bottom: 2rem;
-	background-color: #e9ecef;
-	border-radius: .3rem;
-
 }
+			
+/* On small screens, set height to 'auto' for sidenav and grid */
+
 
 .container-blur{
     -webkit-filter: blur(3px);
