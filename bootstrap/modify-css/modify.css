@@ -4,7 +4,15 @@
 
 }
 
+body{
+	color: #343434;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
 h1{
+	font-size: 75px;
 	font-family: 'Caveat', cursive;
 }
 
@@ -26,8 +34,6 @@ footer {
 }
 			
 /* On small screens, set height to 'auto' for sidenav and grid */
-
-
 .container-blur{
     -webkit-filter: blur(3px);
     -moz-filter: blur(3px);
@@ -57,6 +63,44 @@ footer {
 }
 
 .myauto{
-	margin-top: auto;
-	margin-bottom: auto;
+	text-align: center;
+}
+
+.description{
+	width: 800px
+}
+
+.description p{
+	padding: 0px 10px;
+}
+
+/* */
+.contact-list{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.contact-list a{
+	padding: 15px;
+	display: inline-block;
+}
+
+/* content wrap */
+.content-wrap{
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+.content-wrap + p{
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 500px;
+}
+
+hr {
+	border-top: 2px dashed black;
+	width: 40%;
+	margin: auto;
 }
